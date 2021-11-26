@@ -1,4 +1,6 @@
 <?php 
+    //Problem: Person class has to much responsability.
+    
     class Person{
         public function __construct(
             private int $id,
